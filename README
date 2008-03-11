@@ -1,0 +1,36 @@
+perfSONAR_PS::Services::MA::perfSONARBOUY README File
+=====================================================
+
+Description
+-----------
+
+The perfSONAR_PS::Services::MA::perfSONARBOUY module allows one to make BWCTL
+data available from backend SQL storage using the perfSONAR perfSONARBOUY MA
+protocols.
+
+Installation
+------------
+  
+ Prerequisites
+ -----------------
+    The AMI Framework is required to use this service.  The framework must be
+    installed, configured, and collecting measurements for this service to deliver
+    that data that it is intended to offer.
+
+ CPAN installation
+ -----------------
+
+    perl -MCPAN -e 'install perfSONAR_PS::Services::MA::perfSONARBOUY'
+
+ Standard installation
+ ---------------------
+
+    Prerequisites:
+
+    perl Makefile.PL
+    make
+    make install
+
+Copyright (c) 2004-2008, Internet2 and the University of Delaware
+
+All rights reserved.
